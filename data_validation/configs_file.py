@@ -1,0 +1,11 @@
+config_params={"ETL_DB" : "asb_athena_dev_bah_lakehouse_framework_01",
+    "TARGET_DB_IN_ATHENA" : "dasbbeftspro",
+    "OUTPUT_LOCATION" : "s3://asb-s3-dev-bah-lakehouse-temp-01-51ioql94/athena-query-results/",
+    "TARGET_DB_CATALOG" : "AwsDataCatalog",
+    "ETL_MASTER_DB" : "asb_athena_dev_bah_lakehouse_framework_01",
+    "DATA_VALIDATION_TABLE" : "data_validation",
+    "SOURCE_SECRET_KEY" : "asb-sm-dev-bah-lakehouse-efts-mssql-01-qihs6101",
+    "SNS_TOPIC_ARN" : "arn:aws:sns:me-south-1:136399769509:asb-sns-dev-bah-lakehouse-data-validation-alerts-01-rod10n59",
+    "JOB_NAME" : "EFTS_MSSQL_DATA_VALIDATION",
+    "ICEBERG_WAREHOUSE" : "s3://asb-s3-dev-bah-lakehouse-framework-01-19trqb84/framework-tables/dev/",
+    "GROUPID" : 1}
